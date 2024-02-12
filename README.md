@@ -99,6 +99,7 @@ cargarApi();
     </div>
 ```
 
+<<<<<<< HEAD
 #### 10. En carpeta js creo archivo modular funciones.js para recorrer arreglo de imágenes:
 
 ```
@@ -112,4 +113,7 @@ export const crearTarjetas=(imagenes)=>{
 };
 ```
 
+=======
+#### 10. En carpeta js creo archivo modular funciones.js:
+>>>>>>> 5c5194e (modifico index.html)
 

@@ -99,8 +99,6 @@ cargarApi();
     </div>
 ```
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 #### 10. En carpeta js creo archivo modular funciones.js para recorrer arreglo de imágenes:
 
 ```
@@ -113,29 +111,5 @@ export const crearTarjetas=(imagenes)=>{
     });
 };
 ```
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
-#### 10. En carpeta js creo archivo modular funciones.js:
->>>>>>> 5c5194e (modifico index.html)
-=======
-#### 10. En carpeta js creo archivo modular funciones.js para recorrer arreglo de imágenes:
->>>>>>> 2ac17cd (actualizo pasos documentacion)
-
-```
-export const crearTarjetas=(imagenes)=>{
-    imagenes.map((imagen)=>{
-        const col = document.createElement('div');
-        col.classList='col mb-3';
-        col.innerHTML=cardApp(imagen);
-        document.querySelector('#contenedor').append(col);
-    });
-};
-```
-=======
->>>>>>> 3d4cbc9 (agrego imagen consola)
-=======
 
 
->>>>>>> 8fdb762 (modifico index.html)

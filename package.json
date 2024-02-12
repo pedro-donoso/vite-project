@@ -15,5 +15,8 @@
   "main": "main.js",
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.2"
+  }
 }

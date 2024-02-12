@@ -113,6 +113,7 @@ export const crearTarjetas=(imagenes)=>{
     });
 };
 ```
+<<<<<<< HEAD
 
 =======
 #### 10. En carpeta js creo archivo modular funciones.js:
@@ -131,3 +132,5 @@ export const crearTarjetas=(imagenes)=>{
     });
 };
 ```
+=======
+>>>>>>> 3d4cbc9 (agrego imagen consola)

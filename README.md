@@ -83,3 +83,5 @@ cargarApi();
 
 8.3. Reviso por consola los resultados de la API:
 
+![pantalla](https://github.com/pedro-donoso/vite-project/assets/68760595/a6bf0499-8a69-4d7a-abe8-547156ec5db9)
+

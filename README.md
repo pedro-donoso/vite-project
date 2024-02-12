@@ -83,4 +83,21 @@ cargarApi();
 
 8.3. Reviso por consola los resultados de la API:
 
+![pantalla](https://github.com/pedro-donoso/vite-project/assets/68760595/a6bf0499-8a69-4d7a-abe8-547156ec5db9)
+
+#### 9. En index.html creo contenedor que cargará las tarjetas dinámicamente:
+```
+ <div class="container">
+      <div class="row">
+        <div class="col">
+          <h1>Galería</h1>
+        </div>
+      </div>
+     <div id="contenedor" class="row row-cols-1 row-cols-md-3 g-4">
+      <!-- tarjetas -->
+     </div>
+    </div>
+```
+
+#### 10. En carpeta js creo archivo modular funciones.js:
 

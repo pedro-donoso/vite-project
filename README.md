@@ -128,3 +128,20 @@ const cardImagen=(imagen)=>{
 export default cardImagen;
 ```
 
+#### 12. En archivo funciones.js importo el componente cardApp:
+
+```
+import cardImagen from "../components/cardApp";
+```
+
+#### 13. En el archivo main.js importo la funcion crearTarjetas y llamo a las imagenes de la API:
+
+```
+const cargarApi=async()=>{
+    const imagenes = await getApi()
+    crearTarjetas(imagenes)
+};
+
+cargarApi();
+
+```

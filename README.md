@@ -145,3 +145,4 @@ const cargarApi=async()=>{
 cargarApi();
 
 ```
+![meme](https://github.com/pedro-donoso/vite-project/assets/68760595/53ffee20-ce0f-4a4b-9960-fb95964ad668)

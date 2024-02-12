@@ -114,6 +114,7 @@ export const crearTarjetas=(imagenes)=>{
 };
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 #### 10. En carpeta js creo archivo modular funciones.js:
@@ -134,3 +135,7 @@ export const crearTarjetas=(imagenes)=>{
 ```
 =======
 >>>>>>> 3d4cbc9 (agrego imagen consola)
+=======
+
+
+>>>>>>> 8fdb762 (modifico index.html)

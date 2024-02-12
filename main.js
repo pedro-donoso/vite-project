@@ -3,9 +3,11 @@ import 'bootstrap/dist/js/bootstrap.bundle'
 
 import { getApi } from './js/api'
 
+import { crearTarjetas } from './js/funciones';
+
 const cargarApi=async()=>{
     const imagenes = await getApi()
-    console.log(imagenes);
+    crearTarjetas(imagenes)
 };
 
 cargarApi();

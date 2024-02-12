@@ -111,5 +111,37 @@ export const crearTarjetas=(imagenes)=>{
     });
 };
 ```
+#### 11. Creo carpeta components y archivo cardApp.js con card dinámica con datos desde la API:
 
+```
+const cardImagen=(imagen)=>{
 
+    return `<div class="card">
+    <img src="${imagen.url}" class="card-img-top" alt="${imagen.name}">
+        <div class="card-body">
+            <h5 class="class-title">${imagen.name}</h5>
+        </div>
+    </div>
+    `
+}
+
+export default cardImagen;
+```
+
+#### 12. En archivo funciones.js importo el componente cardApp:
+
+```
+import cardImagen from "../components/cardApp";
+```
+
+#### 13. En el archivo main.js importo la funcion crearTarjetas y llamo a las imagenes de la API:
+
+```
+const cargarApi=async()=>{
+    const imagenes = await getApi()
+    crearTarjetas(imagenes)
+};
+
+cargarApi();
+
+```

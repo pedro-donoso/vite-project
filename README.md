@@ -146,3 +146,42 @@ cargarApi();
 
 ```
 ![meme](https://github.com/pedro-donoso/vite-project/assets/68760595/53ffee20-ce0f-4a4b-9960-fb95964ad668)
+
+
+#### 14. Creo carpeta css y archivo style.css:
+
+```
+.card-imagen {
+    height: 200px;
+    border: 0;
+}
+
+.card-imagen img {
+    min-height: 300px;
+    border-radius: 10px;
+}
+
+```
+
+#### 15. En main.js importo los estilos creados:
+
+```
+import './css/style.css'
+```
+
+#### 16. En cardApp.js agrego las clase de estilo "card-imagen":
+
+```
+const cardImagen=(imagen)=>{
+
+    return `<div class="card h-100 card-imagen">
+    <img src="${imagen.url}" class="card-img-top" alt="${imagen.name}">
+        <div class="card-body">
+            <h5 class="class-title">${imagen.name}</h5>
+        </div>
+    </div>
+    `
+}
+
+export default cardImagen;
+```

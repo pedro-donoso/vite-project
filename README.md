@@ -1,3 +1,7 @@
+![columnas](https://github.com/pedro-donoso/vite-project/assets/68760595/77e29679-1872-45ae-9eb7-bc9034ffc8d2)
+
+### https://project-vite.netlify.app/
+
 #### 1.Creo proyecto npm con vite:
 
 ```
